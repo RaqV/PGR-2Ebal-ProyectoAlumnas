@@ -119,6 +119,7 @@ public class Principal {
 			System.out.println("Desear continuar introduciendo alumnas? (S/N)");
 			continuar=sc.next().toUpperCase().charAt(0);
 			System.out.println("patata");
+			System.out.println("3º modificacion");
 			
 			
 		}while (continuar!='N');
