@@ -11,6 +11,7 @@ public class Principal {
 
 		
 		char iOpc;
+		
 		Scanner sc = new Scanner(System.in);
 
 		// Lista de alumnas
@@ -114,7 +115,7 @@ public class Principal {
 				alum.setDatos(nif);
 				alumnas.add(alum);
 			}
-			
+			System.out.println("Hola mundo");
 			System.out.println("Desear continuar introduciendo alumnas? (S/N)");
 			continuar=sc.next().toUpperCase().charAt(0);
 			
